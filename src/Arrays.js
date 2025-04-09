@@ -25,7 +25,6 @@ export function arrayFiltering(data) {
 */
 export function arrayPushing(array1, array2) {
   const resultArray = [];
-    // Проходим по индексам массивов (предполагаем, что оба массива имеют длину 5)
     for (let i = 0; i < 5; i++) {
         resultArray.push(array1[i]); // Добавляем элемент из первого массива
         resultArray.push(array2[i]); // Добавляем элемент из второго массива
